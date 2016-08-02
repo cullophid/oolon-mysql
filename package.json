@@ -1,0 +1,23 @@
+{
+  "name": "oolon-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cullophid/oolon-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cullophid/oolon-mysql/issues"
+  },
+  "homepage": "https://github.com/cullophid/oolon-mysql#readme",
+  "dependencies": {
+    "lodash.curry": "^4.1.0",
+    "mysql": "^2.11.1"
+  }
+}
