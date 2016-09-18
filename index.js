@@ -28,6 +28,7 @@ module.exports = (url) => {
       connectionPool.getConnection((err, conn) => {
         if (err) return exitWithError(err)
         conn.query(query, params, (err, result) => {
+          conn.release()
           if (err) reject(err)
           resolve(result)
         })
